@@ -6,10 +6,14 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
+//なんか入っていた
+//import javax.swing.tree.RowMapper;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+//なんか消えてた
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
