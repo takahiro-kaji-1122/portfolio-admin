@@ -14,13 +14,11 @@ aaa
 </button> -->
 <P>  The time on the server is ${serverTime}. </P>
 
-<form action="skill-upload" method="post">
-
-<div>
- <input type="submit" value="aaaa">
- </div>
-
- </form>
+	<form method="get" action="<%=request.getContextPath()%>/skillupload">
+		<div >
+			<button type="submit">upload</button>
+		</div>
+	</form>
 
 </body>
 </html>
