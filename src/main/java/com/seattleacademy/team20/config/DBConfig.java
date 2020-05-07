@@ -1,8 +1,6 @@
 package com.seattleacademy.team20.config;
 import javax.sql.DataSource;
 
-//なんか入ってた
-//import org.omg.CORBA.Environment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
