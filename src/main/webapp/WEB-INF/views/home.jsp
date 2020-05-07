@@ -9,9 +9,6 @@
 <h1>
 	Hello world!
 </h1>
-<!-- <button action="login" method="post">
-aaa
-</button> -->
 <P>  The time on the server is ${serverTime}. </P>
 
 	<form method="get" action="<%=request.getContextPath()%>/skillupload">
