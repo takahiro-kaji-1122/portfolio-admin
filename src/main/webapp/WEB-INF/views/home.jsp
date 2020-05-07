@@ -1,3 +1,4 @@
+<!-- taglib:ディレクティブでhtmlタグライブラリを指定します。 -->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <html>
@@ -6,9 +7,15 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+	Hello world!
 </h1>
-
 <P>  The time on the server is ${serverTime}. </P>
+
+	<form method="get" action="<%=request.getContextPath()%>/skillupload">
+		<div >
+			<button type="submit">upload</button>
+		</div>
+	</form>
+
 </body>
 </html>
