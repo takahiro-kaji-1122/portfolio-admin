@@ -9,7 +9,9 @@ import org.springframework.core.env.Environment;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
  @Configuration
+
  @PropertySource({"classpath:/jdbc.properties"})
 public class DBConfig {
     @Autowired
