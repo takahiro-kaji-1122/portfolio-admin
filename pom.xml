@@ -133,6 +133,7 @@
 			<artifactId>cglib</artifactId>
 			<version>3.2.6</version>
 		</dependency>
+		
 		<!-- FirebaseSDK -->
 		<dependency>
 			<groupId>com.google.firebase</groupId>
